@@ -7,7 +7,7 @@
 - flex-grow
   - 할당 가능한 공간의 정도
   - 형제 아이템들이 모두 동일한 flex-grow 값 = 동인한 공간
-  - 형제 아이템ㄷㄹ이 다른 flex-grow 값 = 다른 공간
+  - 형제 아이템들이 다른 flex-grow 값 = 다른 공간
 - flex-shrink
   - 아이템의 크기가 container 보다 클 때 사용
   - 설정된 값에 따라 크기가 축소
