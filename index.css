@@ -298,3 +298,80 @@ header {
 #active-category-button .inactive-img {
     display: none;
 }
+
+.place-image-wrapper {
+    position: relative;
+    width: 308px;
+    overflow: hidden;
+    height: 293px;
+    border-radius: 23px;
+}
+
+.place-image-wrapper img {
+    width: 500px;
+    height: 500px;
+}
+
+.place-image-wrapper .heart-icon {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.description-section {
+    margin-top: 13px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(34, 34, 34);
+    font-size: 15px;
+    gap: 3px;
+}
+
+.description-section_title {
+
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 24px 80px;
+}
+
+#place-items-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 308px);
+    justify-items: center;
+    align-items: center;
+    gap: 40px 24px;
+}
+
+.heart-icon:active {
+    transform: scale(0.5);
+    transition: transform 0.25s ease;
+}
+
+#floating-map-buttton {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 19px;
+    left: 50%;
+    bottom: 125px;
+    background-color: #222222;
+    border-radius: 24px;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    gap: 8px;
+    cursor: pointer;
+}
+
+#floating-map-buttton:hover {
+    transform: translateX(-50%) scale(1.04) !important;
+}
